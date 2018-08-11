@@ -271,7 +271,7 @@
  * Author：huangfl
  * Design：A Grey Fish
  * Contact: feelonewong#gmail.com ('#' replace '@')
- * beta: 1.0
+ * beta: 2.0
  */
 `
   writeCode('',code)
