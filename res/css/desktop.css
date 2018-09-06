@@ -1,0 +1,171 @@
+/* 媒体查询断点 desktoppad规则 desktop css */
+.desktop {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.desktop-header {
+  height: 86px;
+  line-height: 86px;
+  width: 100%;
+}
+.desktop-header-r>nav>ul>li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+.desktop-header-r a {
+  color: #ffffff;
+}
+.desktop-nav-active {
+  border-top: 4px solid #ffffff; 
+}
+.desktop-header-l {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.desktop-header-logo {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.mobile {
+  display: none;
+}
+.desktop-content {
+  width: 850px;
+  display: table;
+  margin-left: 175px;
+}
+
+.desktop-content-download, .desktop-content-preview {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.desktop-content-download {
+  padding-top: 50px;
+}
+.slogan-bottom, .slogan-top {
+  display: inline-block;
+}
+.slogan-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.slogan-top img {
+  width: 222px;
+  height: 87px;
+  margin-bottom: 10px;
+}
+.slogan-top p {
+  opacity: .5;
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.slogan-bottom {
+  text-align: left;
+  position: relative;
+}
+.slogan-bottom::before{
+  position: absolute;
+  content: "";
+  left: 0px;
+  width: 7px;
+  height: 100%;
+  background: #fff;
+  border-radius: 100px;
+}
+.slogan-bottom p {
+  margin-left: 22px;
+  color: #fff;
+}
+.slogan-bottom p:first-child {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.slogan-bottom p:last-child {
+  font-size: 16px;
+}
+.desktop-btns {
+  margin-top: 60px;
+}
+.desktop-btn {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.2);
+  border-radius: 100px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+.desktop-btn:last-child {
+  background-image: linear-gradient(-90deg, #33aeff 1%, #8450ff 100%);
+  color: #fff;
+  margin-left: 30px;
+}
+.desktop-btn-logo {
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100% !important;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.appstore-logo {
+  background: url(../img/demo-appstore-logo.png) no-repeat;
+
+}
+.android-logo {
+  background: url(../img/demo-googleplay-logo.png) no-repeat;
+}
+
+.desktop-content-preview {
+  text-align: right;
+  
+}
+.desktop-content-preview .phone {
+  width: 270px;
+  height: 486px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  background: url('../img/demo-phone.png') no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+.desktop-content-preview video {
+  position: absolute;
+  left: 35px;
+  top: 47px;
+  width: 202px;
+  height: 357px;
+  background-color: #ccc;
+}
+
+.desktop-content-preview .playbtn {
+  position: absolute;
+  background-size: cover;
+  background: url(../img/demo-play-btn.png) no-repeat;
+  width: 174px;
+  height: 174px;
+  left: -18px;
+  right: 0;
+  margin: 0 auto;
+  top: 27%;
+  cursor: pointer;
+
+}
