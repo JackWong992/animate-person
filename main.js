@@ -255,26 +255,7 @@
   border-right: 30px solid transparent;
   z-index: 0;
 }
-.say::after {
-  content: '那么人呐就都不知道，自己就不可以预料。
-  一个人的命运啊，当然要靠自我奋斗，但是也要考虑到历史的行程。
-  我绝对不知道，我作为一个上海市委书记怎么把我选到北京去了，
-  所以邓小平同志跟我讲话，
-  说“中央都决定啦，你来当总书记”，我说另请高明吧。
-  我实在我也不是谦虚，
-  我一个上海市委书记怎么到北京来了呢？但是呢，
-  小平同志讲“大家已经研究决定了”，
-  所以后来我就念了两首诗，叫“苟利国家生死以，岂因祸福避趋之”，
-  那么所以我就到了北京。';
-  display: block;
-  position: absolute;
-  top: 233px;
-  left: 0px;
-  color: #fff;
-  font-family: Kai;
-  text-align: left;
-  z-index: 2;
-}
+
 
 /*
  * Date: at 1:35am, Aug.10th, 2018 
@@ -282,6 +263,9 @@
  * Design：A Grey Fish
  * Contact: feelonewong#gmail.com ('#' replace '@')
  * beta: 2.0
+ * 好了，我的动漫人物已经画好了。
+ * 这个动漫看上去挺好玩实现起来非常简单，如果你想了解源码，请了解以下链接：
+ * https://github.com/JackWong992/animate-person
  */
 `
   writeCode('',code)
